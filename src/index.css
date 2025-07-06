@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background-color: rgba(15, 15, 15, 0.827);
+  background-image:
+  url(https://i.pinimg.com/736x/7d/ef/f2/7deff214bd9ae42f1c6a0d40de721dab.jpg),
+    linear-gradient(to right, #fbf2f2 1px, transparent 1px),
+    linear-gradient(to bottom, #e9e8e8 1px, transparent 1px);
+  background-size: 30px 30px;
+}
+
+.text-outline {
+  color: transparent;
+  -webkit-text-stroke: 12px #c9262689;
+  /* text-stroke: 2px #fff; */
+  text-transform: uppercase;
+}
